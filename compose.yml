@@ -1,0 +1,7 @@
+version: '3'
+services: 
+    web:
+        build: .
+        image: python:s3
+        ports: 
+          -  "80:80"
